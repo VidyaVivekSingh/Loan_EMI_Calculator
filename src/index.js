@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import MainPage from './Main_Page/Main_Page'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 ReactDOM.render(
   <MainPage />,
