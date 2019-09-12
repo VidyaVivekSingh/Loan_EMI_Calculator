@@ -1,4 +1,5 @@
 import React from 'react'
+import HistoryData from '../History/History'
 
 import './Sidebar.css'
 
@@ -9,14 +10,9 @@ const Sidebar = props => {
   }
   return (
     <nav className={drawerClasses}>
-      <ul>
-        <li>
-          <a href="/">Products</a>
-        </li>
-        <li>
-          <a href="/">Users</a>
-        </li>
-      </ul>
+      <a style={{ padding: "10px" }}>History</a>
+      <HistoryData onClick={props.handleClick} categories={props.categories} />
+
     </nav>
   )
 }

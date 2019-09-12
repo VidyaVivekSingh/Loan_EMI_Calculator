@@ -1,0 +1,15 @@
+.sidebar__category {}
+
+.field {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    left: 0;
+    color: #000
+    /* justify-content: flex-start */
+}
+
+.history_navigation-items .col-3 .col-2 .col-4 {
+    display: flex;
+    justify-content: center
+}
